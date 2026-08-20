@@ -279,38 +279,56 @@
     
       <h1 id="page-title" class="page__title"></h1>
     
-    <h2 id="academic-journey">Academic Journey</h2>
+    <h2 id="what-ive-done-so-far">What I've Done So Far</h2>
 
-<p>Busra completed her <strong>B.Sc. in Molecular Biology and Genetics</strong> at <em>Yıldız Technical University</em> in 2021, where her passion for computational frameworks began to take shape. Driven by a desire to blend experimental biology with advanced computation, she pursued an <strong>M.Sc. in Molecular Biology, Genetics, and Bioengineering</strong> at <em>Sabancı University</em> while joining the MIDSTLab. DDuring her master’s studies, she focused on elucidating protein conformational landscapes through various enhanced sampling methods and completed her M.Sc. degree in 2025. Busra is now continuing her academic journey as a <strong>Doctoral Student</strong> in the same rigorous program.</p>
+<p>I started in <strong>Molecular Biology and Genetics</strong> at <em>Yıldız Technical University</em>, where I completed my B.Sc. in 2021. During my M.Sc. in <strong>Molecular Biology, Genetics, and Bioengineering</strong> at <em>Sabancı University</em>, I moved toward computational biophysics and joined <strong>MIDSTLab</strong>. I completed my M.Sc. in 2025 and I am now continuing in the same program as a <strong>doctoral student</strong>.</p>
 
-<h2 id="beyond-the-lab">Beyond the Lab</h2>
+<p>Since joining MIDSTLab, I have mainly worked on two problems. The first is the conformational dynamics of <strong>calmodulin (CaM)</strong>, where I used classical molecular dynamics and well-tempered metadynamics to study how calcium binding and ionic strength reshape its free-energy landscape. This work developed into our 2026 paper in the <em>Journal of Chemical Information and Modeling</em>. The second is <strong>DHFR mutational scanning</strong>, where I have worked with large-scale alchemical free energy perturbation (FEP) simulations on HPC resources to investigate how mutations change inhibitor preference. Our first FEP pipeline study was published in 2025, and I am continuing this project by comparing FEP-derived relative binding with experimental fitness data.</p>
 
-<p>Outside of her research, Busra leads a balanced life that fuels her creative and analytical endeavors. Whether she’s pumping iron at the gym, engaging in immersive video games, or catching up on the latest anime, she believes in the power of diverse experiences. Meditation and metal music provide her with a steady rhythm and focus, and she continually seeks to enhance her programming skills, blending her love for biology and computation into a dynamic career.</p>
+<p>I have also presented different stages of these projects at scientific meetings through talks and posters. In 2025, I presented our CaM work as a <strong>selected talk at HIBIT 2025</strong>, and in 2026 this work was published in the <em>Journal of Chemical Information and Modeling</em>. My next presentation will be at <strong>ECCB 2026 in Geneva</strong>, where I will present our latest DHFR mutational-scanning results as a poster.</p>
 
-<h2 id="research-focus">Research Focus</h2>
+<h2 id="research-focus">What I'm Working On</h2>
 
-<p><img src="/images/busra_metad_gif_29_10.gif" alt="Pipeline Synopsis" />
-Her current research investigates the dynamic conformational landscape of <strong>calmodulin (CaM)</strong>, a calcium‐binding protein essential to numerous cellular processes. By considering two principal degrees of freedom—one capturing the rotational motion between the protein’s lobes and the other describing its overall compactness—her work aims to distill CaM’s complex structural variability into a model that reveals how environmental conditions influence its conformations. Recognizing that traditional molecular dynamics (MD) simulations can be limited by high-energy barriers and timescale constraints, her group employs <strong>well-tempered metadynamics</strong> using these degrees of freedom as collective variables to systematically explore four distinct conditions corresponding to calcium-bound and unbound states at both physiological and low ionic strengths.</p>
+<p><img src="/images/busra_metad_gif_29_10.gif" alt="Molecular simulation workflow" />
+My research sits at the intersection of <strong>molecular dynamics, enhanced sampling, free-energy calculations, protein dynamics, and high-performance computing</strong>. I am interested in how environmental changes and mutations reshape protein conformational ensembles, and how those changes are reflected in molecular recognition, inhibitor binding, and function.</p>
 
-<p>A recent publication by her research team, “<a href="https://onlinelibrary.wiley.com/doi/10.1002/cpe.8371">High Throughput Mutational Scanning of a Protein via Alchemistry on a High‐Performance Computing Resource</a>” (DOI: 10.1002/cpe.8371), further underscores the group’s commitment to advanced computational methodologies. This study details the development of an automated pipeline leveraging <strong>GPU-accelerated alchemical free energy perturbation (FEP) simulations</strong> on high-performance computing (HPC) systems to perform large-scale mutational scanning on <strong>dihydrofolate reductase (DHFR)</strong>. The work demonstrates the feasibility of efficiently and accurately quantifying how point mutations affect protein-drug binding free energies—a framework that can inspire similar approaches to unravel the subtle conformational changes observed in CaM.</p>
+<p>For CaM, I used physically interpretable collective variables with well-tempered metadynamics to map calcium- and salt-dependent conformational landscapes and connected the sampled states with experimentally observed CaM–target complexes. For DHFR, I use GPU-accelerated FEP simulations and automated analysis workflows to build mutational landscapes of relative inhibitor binding and compare them with experimental fitness measurements.</p>
 
-<h2 id="publications">Publications</h2>
+<h2 id="publications-presentations">Publications &amp; Presentations</h2>
 <hr />
+
+<h3>Publications</h3>
 <ul>
   <li>
+    <p><strong>Tayhan B.</strong>, Horozoglu S., Atilgan A.R., Atilgan C.<br />
+<em>Functional Calmodulin States Are Selected from an Electrostatically Tuned Free Energy Landscape</em><br />
+Journal of Chemical Information and Modeling, 2026, 66(11), 6602–6616.<br />
+<a href="https://doi.org/10.1021/acs.jcim.6c00532">https://doi.org/10.1021/acs.jcim.6c00532</a> – Research Article (Published).</p>
+  </li>
+  <li>
     <p>Guclu T.F., <strong>Tayhan B.</strong>, Cetin E., Atilgan A.R., Atilgan C.<br />
-<em>High throughput mutational scanning of a protein via alchemistry on a high-performance computing resource</em><br />
-Concurrency and Computation: Practice and Experience, 2025, 37, 38371.<br />
+<em>High Throughput Mutational Scanning of a Protein via Alchemistry on a High-Performance Computing Resource</em><br />
+Concurrency and Computation: Practice and Experience, 2025, 37:e8371.<br />
 <a href="https://doi.org/10.1002/cpe.8371">https://doi.org/10.1002/cpe.8371</a> – Research Article (Published).</p>
   </li>
+</ul>
+
+<h3>Selected Presentations</h3>
+<ul>
+  <li><strong>Tayhan B.</strong>, Guclu T.F., Cetin E., Yildiz M.S., Toprak E., Atilgan A.R., Atilgan C.<br />
+<em>Computational Mutational Scanning of DHFR for Mutation-Dependent Inhibitor Preference</em><br />
+25th Annual European Conference on Computational Biology (ECCB 2026), Geneva, Switzerland, 31 August–4 September 2026. – <strong>Poster Presentation (Upcoming)</strong></li>
+  <li><strong>Tayhan B.</strong>, Horozoglu S., Coban D., Atilgan A.R., Atilgan C.<br />
+<em>Regulatory Conformations of Calmodulin Modulated by Calcium Binding and Salt Concentration Variations</em><br />
+HIBIT 2025 – 18th International Symposium on Health Informatics and Bioinformatics, Istanbul, Türkiye, 31 October 2025. – <strong>Selected Talk</strong></li>
   <li><strong>Tayhan B.</strong>, Horozoglu S., Coban D., Atilgan A.R., Atilgan C.<br />
 <em>Mapping Conformational Dynamics Across Environmental Shifts</em><br />
 14th Chemical Physics Congress, Edirne, Turkey, September 2024. – Selected Talk</li>
   <li><strong>Tayhan B.</strong>, Atilgan A.R., Atilgan C.<br />
 <em>Protean Nature of Calmodulin: Mapping Conformational Dynamics Across Environmental Shifts</em><br />
-ECCB2024, Turku, Finland, September 2024. – Poster Presentation</li>
+ECCB 2024, Turku, Finland, September 2024. – Poster Presentation</li>
   <li>Guclu T.F., <strong>Tayhan B.</strong>, Cetin E., Atilgan A.R., Atilgan C.<br />
-<em>High throughput mutational scanning of a protein via alchemistry on a high-performance computing resource</em><br />
+<em>High Throughput Mutational Scanning of a Protein via Alchemistry on a High-Performance Computing Resource</em><br />
 Basarim 2024 8th High-Performance Computing Conference, Ankara, Turkey, May 2024. – Selected Talk</li>
   <li><strong>Tayhan B.</strong>, Atilgan A.R., Atilgan C.<br />
 <em>The Effect of Conformational Dynamics on Calmodulin-Mediated Sensor Activity</em><br />
@@ -334,7 +352,7 @@ HIBIT 2023, Ankara, Turkey, October 2023. – Selected Talk</li>
 <!-- end custom footer snippets -->
         
 
-<div class="page__footer-copyright">&copy; 2025 Busra Tayhan.</div>
+<div class="page__footer-copyright">&copy; 2026 Busra Tayhan.</div>
 
       </footer>
     </div>
